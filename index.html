@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head> 
+        <title>Multiple Search Engine</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+ <body> 
+    <h1>Search Aggregator</h1>
+    <div id="header">
+        <form onsubmit="performSearch(); return false;"> 
+        <input id="searchField" type="text" size="35" maxlength="255" placeholder="Use all search engines here..." /> 
+        <input type="submit" value="Search" />
+        </form>  
+        <p>(Beware this will open one window for each search engine below)</p> 
+
+         <p id="spotlight" > <img src="/Users/matt/Documents/Images/Spotlight-clip-art.png" style="width:400px;height:150px;">
+         </p>
+               
+    </div> 
+     <ul id="nav">
+        <li><a href="news/news.html">News</a></li>
+        <li><a href="finance/finance.html">Finance</a></li>
+        <li><a href="sport/sport.html">Sport</a></li>
+        <li><a href="technology/tech.html">Technology</a></li>
+     </ul>
+    <div class="boxes">
+        <h2>Individual search engines on one page.</h2>
+        <form method="get" action="http://www.google.com/search" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="Google" /> 
+        <input type="submit" value="Search" />
+        </form>
+        <form method="get" action="https://www.bing.com/search" target="_blank">
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="Bing" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="http://search.yahoo.com/search" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="Yahoo" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="https://duckduckgo.com/?q=" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="DuckDuckGo" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="http://www.dogpile.com/search/web?q=" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="DogPile" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="https://www.wolframalpha.com/input" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="WolframAlpha" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="https://www.yandex.com/search" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="Yandex" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="http://www.gigablast.com/cgi/0.cgi?q=" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="GigaBlast" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+        <form method="get" action="http://web.ask.com/web?q=" target="_blank"> 
+        <input type="text" name="q" size="35" maxlength="200" value="" placeholder="AskJeeves" /> 
+        <input type="submit" value="Search" /> 
+        </form>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+        <footer id="footer">
+            &copy; Matt Evans 2017
+        </footer>
+    </body>
+</html>

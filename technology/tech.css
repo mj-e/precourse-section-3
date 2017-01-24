@@ -1,0 +1,32 @@
+body {
+	margin: 0 auto;
+	width: 90%;
+    background-image: url("/Users/matt/Documents/Images/light-of-technology-1510575.jpg");
+    background-size: cover;
+    background-position: center top;
+}
+
+h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 48px;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+    font-size: 24px;
+    color:  white;
+}
+
+a{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
+
+a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
