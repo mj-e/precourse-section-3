@@ -1,7 +1,7 @@
 body {
 	margin: 0 auto;
 	width: 90%;
-    background-image: url("/Users/matt/Documents/GitHub/precourse-section-3/images/dollar-1474097.jpg");
+    background-image: url("shuttlecock-3-1486875.jpg");
     background-size: cover;
     background-position: center top;
 }
@@ -10,22 +10,16 @@ h1 {
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-size: 48px;
-    border-width: 4px;
-    border-color: black;
 }
 
 li {
     display: inline;
     padding: 0.5em;
     font-size: 24px;
-}
-
-a{
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    color: black;
+    color:  white;
 }
 
 a:hover {
-	color: darkmagenta;
+	color: green;
 	font-weight: bold;
 }
